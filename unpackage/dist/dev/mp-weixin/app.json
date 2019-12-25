@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/tabbar/home/home",
+    "pages/todoChild/orderList/orderList",
+    "pages/todoChild/orderDetail/orderDetail",
+    "pages/todoChild/writeOrder/writeOrder",
+    "pages/todoChild/shopDetail/shopDetail",
+    "pages/tabbar/todo/todo",
+    "pages/auth/auth",
+    "pages/tabbar/mine/mine",
+    "pages/todoChild/refundOrder/refundOrder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "非客有家",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#888888",
+    "selectedColor": "#e8be2e",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/home",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/selectedHome.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/todo/todo",
+        "iconPath": "static/img/tabbar/shop.png",
+        "selectedIconPath": "static/img/tabbar/selectedShop.png",
+        "text": "积分商城"
+      },
+      {
+        "pagePath": "pages/tabbar/mine/mine",
+        "iconPath": "static/img/tabbar/mine.png",
+        "selectedIconPath": "static/img/tabbar/selectedMine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "gxg将定位您的位置"
+    }
+  },
+  "resizable": true,
+  "usingComponents": {}
+}

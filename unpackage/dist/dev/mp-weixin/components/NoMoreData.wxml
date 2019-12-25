@@ -1,0 +1,1 @@
+<view><view hidden="{{!(isShow)}}" class="no-more-data-bar"><text>没有更多数据了哦！</text></view></view>

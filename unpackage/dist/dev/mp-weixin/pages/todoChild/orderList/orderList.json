@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "兑换记录",
+  "usingComponents": {
+    "order-infor": "/components/OrderInfor",
+    "order-button": "/components/OrderButton",
+    "no-more-data": "/components/NoMoreData"
+  }
+}

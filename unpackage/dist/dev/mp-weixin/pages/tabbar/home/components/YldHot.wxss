@@ -1,0 +1,29 @@
+
+.tip-title.data-v-4b595452 {
+	font-size: 40rpx;
+	font-weight: bold;
+	margin-left: 2%;
+}
+.scroll-tip.data-v-4b595452 {
+	width: 100%;
+	height: 80rpx;
+	background: #fff;
+	border-bottom: 16rpx solid rgb(223,54,93);
+	line-height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.scroll-tip .header-msg-tip.data-v-4b595452 {
+	height: 70rpx;
+	position: absolute;
+	margin-left: 180rpx;
+	width: 570rpx;
+}
+.scroll-tip ._i.data-v-4b595452 {
+	position: relative;
+	font-size: 40rpx;
+	left: 30rpx;
+}
+

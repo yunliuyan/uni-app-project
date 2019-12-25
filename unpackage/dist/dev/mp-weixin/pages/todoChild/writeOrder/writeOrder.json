@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "usingComponents": {
+    "order-infor": "/components/OrderInfor",
+    "yld-address": "/components/YldAddress"
+  }
+}

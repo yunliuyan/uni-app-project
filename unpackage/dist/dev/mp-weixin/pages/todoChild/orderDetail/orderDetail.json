@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "order-infor": "/components/OrderInfor",
+    "order-button": "/components/OrderButton"
+  }
+}

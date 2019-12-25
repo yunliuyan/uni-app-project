@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "退单详情",
+  "usingComponents": {
+    "order-infor": "/components/OrderInfor"
+  }
+}

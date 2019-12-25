@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "积分商城",
+  "usingComponents": {
+    "swiper-img": "/components/SwiperImg",
+    "yld-nav": "/pages/tabbar/todo/components/YldNav",
+    "yld-shop": "/pages/tabbar/todo/components/YldShop"
+  }
+}

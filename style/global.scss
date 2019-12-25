@@ -1,0 +1,341 @@
+//去掉滚动条
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  position: absolute;
+  overflow: scroll;
+}
+
+/*导航下划线*/
+
+.border-active {
+  border-bottom: 5upx solid rgb(223,54,93);
+}
+/*点击改变区块样式*/
+.hover-active {
+	background: #000000 !important;
+	 color: #f2f2f2 !important;
+}
+/*隐藏滚动条*/
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/*原生button样式*/
+
+button {
+  background-color: #fafafe;
+}
+
+button::after {
+  border: none;
+  background: none;
+}
+
+/*底部提交按钮位置*/
+.start-todo {
+	position: fixed;
+	bottom: 40rpx;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+}
+
+/*自定义button的样式*/
+
+.customize-button {
+  border-radius: 42upx;
+  color: #fff;
+  background: #000;
+  text-align: center;
+}
+
+/*页面大按钮主色调*/
+
+.cus-big-button {
+  width: 690upx;
+  height: 80upx;
+  font-size: 34upx;
+  text-align: center;
+  line-height: 80upx;
+  border-radius: 48upx;
+  color: #fff;
+  background: linear-gradient(135deg, #46d0fe, #409eff);
+  margin-left: 30upx;
+}
+/*页面大按钮副色调*/
+.primary-cus-big-button {
+	width: 690upx;
+	height: 80upx;
+	font-size: 34upx;
+	text-align: center;
+	line-height: 80upx;
+	border-radius: 48upx;
+	color: #fff;
+	background: linear-gradient(135deg, #df365d, #ee141e);
+	margin-left: 30upx;
+}
+/*底部覆盖副按钮*/
+.primary-cus-button{
+	width: 100%;
+	height: 100upx;
+	font-size: 34upx;
+	text-align: center;
+	line-height: 100upx;
+	color: #fff;
+	background: linear-gradient(135deg, #df365d, #ee141e);
+}
+/*背景图*/
+
+.back-ground-set {
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+/*主题色*/
+
+.theme-color {
+  color: #e8be2e;
+}
+
+.primary-theme-color {
+	color: rgb(223,54,93);
+}
+
+/*字体主颜色*/
+
+.primary-text-color {
+  color: #404040;
+}
+
+/*副色调*/
+
+.conllect-color {
+  color: #e64340;
+}
+
+/*重要级文字信息*/
+
+.important-font {
+  color: #1e1d22;
+  font-size: 32upx;
+  font-weight: bold;
+}
+
+/*标题字体颜色*/
+
+.title-font {
+  font-size: 32upx;
+  color: #404040;
+}
+/*内容文字*/
+.content-font {
+	font-size: 28upx;
+}
+/* 按钮属性 */
+.type-btn-font {
+	font-size: 26upx;
+}
+/*提示性文字：如好评人数*/
+
+.tip-font {
+  color: #8f8fa7;
+  font-size: 24upx;
+}
+
+/*阴影*/
+.box-shadow-setting {
+  box-shadow:0 0 6rpx 6rpx rgba(0, 0, 0, 0.1);
+}
+
+/*列表底部留白高度*/
+
+.white-height {
+  height: 120upx;
+}
+
+/* 黑色透明蒙板 */
+
+.transparent-background {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+}
+
+/* 脱离文档流 */
+
+.out-document {
+  position: absolute;
+  z-index: 1;
+}
+
+/*单行省略号*/
+
+.one-line-elipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/** border主题色线条 */
+.border-theme-color {
+	border: 1upx solid #e8be2e;
+}
+.border-primary-theme-color {
+	border: 1upx solid rgb(223,54,93);
+}
+/**border灰色线条*/
+.border-primary-color {
+	border: 1upx solid #ddd;
+}
+/*有框的输入框样式*/
+.type-input {
+	border: 1upx solid #ddd;
+	height: 70upx;
+	border-radius: 30upx;
+	padding-left: 20upx;
+}
+/*空白页样式设计*/
+
+.null-data {
+  width: 50%;
+  height: 300upx;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 130upx;
+}
+
+/*对checkedbox的样式修改*/
+
+/* checkbox未选中时样式 */
+
+checkbox .wx-checkbox-input {
+  border-radius: 50%;
+  height: 36upx;
+  width: 36upx;
+}
+
+/* checkbox选中时样式 */
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: #409eff;
+  border: 1upx solid #409eff;
+  /* 自定义样式.... */
+  color: #fff !important;
+}
+
+/*对微信radios的样式修改*/
+
+radio .wx-radio-input {
+  border-radius: 50%; /* 圆角 */
+  width: 36upx;
+  height: 36upx;
+}
+
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+
+radio .wx-radio-input.wx-radio-input-checked {
+  border: none;
+  background: #409eff !important;
+}
+
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+
+radio .wx-radio-input.wx-radio-input-checked::before {
+  border-radius: 50%; /* 圆角 */
+  width: 36upx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 36upx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 36upx;
+  text-align: center;
+  font-size: 30upx; /* 对勾大小 30upx */
+  color: #fff; /* 对勾颜色 白色 */
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 1204278 */
+    src: url('//at.alicdn.com/t/font_1204278_23alfoewxkm.eot');
+    src: url('//at.alicdn.com/t/font_1204278_23alfoewxkm.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1204278_23alfoewxkm.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1204278_23alfoewxkm.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1204278_23alfoewxkm.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1204278_23alfoewxkm.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconshouji:before {
+  content: "\e625";
+}
+
+.iconyanzhengma:before {
+  content: "\e626";
+}
+
+.icontuijian:before {
+  content: "\e6a6";
+}
+
+.icondown:before {
+  content: "\e7ed";
+}
+
+.iconiconfontzhizuobiaozhun22:before {
+  content: "\e615";
+}
+
+.iconlaba:before {
+  content: "\e61b";
+}
+
+.iconjifen:before {
+  content: "\e61d";
+}
+
+.icon19:before {
+  content: "\e638";
+}
+
+.iconxing:before {
+  content: "\e616";
+}
+
+.iconjian:before {
+  content: "\e632";
+}
+
+.iconjia:before {
+  content: "\e630";
+}
+
+.iconweizhi-tianchong:before {
+  content: "\e656";
+}
+
+.iconqueding:before {
+  content: "\e681";
+}
+
+

@@ -1,0 +1,96 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationBarTitleText": "非客钱包"
+			}
+		},
+		{
+		    "path" : "pages/todoChild/orderList/orderList",
+		    "style" : {
+				"navigationBarTitleText": "兑换记录"
+			}
+		},
+		{
+		    "path" : "pages/todoChild/orderDetail/orderDetail",
+		    "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+		    "path" : "pages/todoChild/writeOrder/writeOrder",
+		    "style" : {
+				"navigationBarTitleText": "填写订单"
+			}
+		},
+		{
+			"path": "pages/todoChild/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/tabbar/todo/todo",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "授权"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/todoChild/refundOrder/refundOrder",
+            "style" : {
+				"navigationBarTitleText": "退单详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "非客有家",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#888888",
+		"selectedColor": "#e8be2e",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/selectedHome.png",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/tabbar/todo/todo",
+				"iconPath": "static/img/tabbar/shop.png",
+				"selectedIconPath": "static/img/tabbar/selectedShop.png",
+				"text": "积分商城"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"iconPath": "static/img/tabbar/mine.png",
+				"selectedIconPath": "static/img/tabbar/selectedMine.png",
+				"text": "我的"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "非客将读取您的位置信息。"
+		}
+	}
+}

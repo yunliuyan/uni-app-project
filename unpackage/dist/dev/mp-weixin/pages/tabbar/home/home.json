@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "非客钱包",
+  "usingComponents": {
+    "yld-top": "/pages/tabbar/home/components/YldTop",
+    "swiper-img": "/components/SwiperImg",
+    "yld-nav": "/pages/tabbar/home/components/YldNav",
+    "yld-hot": "/pages/tabbar/home/components/YldHot"
+  }
+}
